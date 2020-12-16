@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Delius+Unicase');
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+address,
+cite {
+  font-size: 100%;
+  font-style: normal;
+}
+blockquote,
+figure {
+  margin: 0;
+}
+body {
+  background: #f0fff0;
+  color: #133924;
+  margin: 0;
+}
+footer {
+  background-color:#133924;
+  color: #f0fff0;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Delius Unicase', sans-serif;
+  font-weight: normal;
+  line-height: 1.1;
+}
+header,
+footer,
+section {
+  padding: 2rem;
+}
+input:not(.button),
+textarea {
+  border: 1px solid;
+  border-radius: .25rem;
+  font-size: 100%;
+  padding: .5rem;
+  width: 100%;
+}
+html {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+img {
+  vertical-align: bottom;
+  width: 100%;
+}
+label {
+  display: block;
+}
+section {
+  border-bottom: 2px dotted;
+}
+.brand {
+  font-family: 'Delius Unicase', sans-serif;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  padding-left: .5rem;
+}
+.button {
+  background-color: transparent;
+  border-radius: .25rem;
+  color: #f0fff0;
+  font-size: 100%;
+  outline-color: #3cb371;
+  padding: .5rem 1rem;
+}
+.contact-form {
+  max-width: 550px;
+  min-width: 375px;
+  width: 50%;
+}
+.contact-icon {
+  width: 1rem;
+  vertical-align: middle;
+  padding-right: 1rem;
+}
+.customer-quote {
+  background-color: rgba(255,255,255,.75);
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  width: 75%;
+}
+.customer-quote blockquote {
+  font-size: 1.5rem;
+}
+.gallery {
+  column-count: 3;
+  column-gap: 0;
+}
+.gallery img {
+  display: block;
+}
+.icon {
+  width: 3rem;
+}
+.intro {
+  background-color: rgba(60,179,113,.75);
+  background-image: url(../../public/images/logo-watermark.svg);
+  background-position: top 1rem right 1rem;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  border-radius: .25rem;
+  font-size: 1.25em;
+  margin-left: auto;
+  margin-top: 20%;
+  max-width: 700px;
+  min-width: 400px;
+  padding: 2rem;
+  width: 70%;
+}
+.main-nav {
+  background-color:#3cb371;
+  color: #f0fff0;
+  margin: 0 -2rem;
+  padding: .5rem 2rem;
+}
+.main-nav > ul {
+  float: right;
+  list-style: none;
+  padding: 0;
+}
+.main-nav li {
+  display: inline;
+  padding-left: .5rem;
+}
+.page-header {
+  background-attachment: fixed;
+  background-image: url(../../public/images/header-bg.jpg);
+  background-size: cover;
+  color: #f0fff0;
+  height: 100vh;
+  padding-top: 0;
+}
+.smaller {
+  font-size: .5em;
+  display: block;
+}
+.social-nav {
+  margin: 1rem 0;
+}
+.social-nav a {
+  padding-right: .5rem;
+}
